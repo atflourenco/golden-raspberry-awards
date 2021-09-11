@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "0160c524-6065-463b-9947-d1b62ed276fc",
+		"name": "Golden Raspberry Awards",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "All Movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/movies/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"movies",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Min Max Interval Awards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/movies/min-max-interval-awards",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"movies",
+						"min-max-interval-awards"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
